@@ -17,7 +17,7 @@
     --fundo-principal: #0a192f;
     --texto: #ccd6f6;
     --texto-inverso: #172a45;
-    --destaque: #f75307;
+    --destaque: #f75307d2;
     --destaque-inverso: #0a192f;
     --fundo-card: #112240;
   }
@@ -113,10 +113,19 @@ nav#menu ul li a:hover{
     background-color: var(--fundo-card);
     border-radius: 8px;
   }
+
   article{
     background-color: var(--fundo-card);
     padding: 20px;
     margin-bottom: 20px;
     border-radius: 8px;
+  }
+  
+  article h2{
+    color: var(--destaque);
+    margin-bottom: 15px;
+    font-size: 1.4em;
+    border-bottom: 2px solid var(--destaque);
+    padding-bottom: 5px;
   }
 
