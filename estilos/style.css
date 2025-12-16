@@ -105,3 +105,18 @@ nav#menu ul li a:hover{
   div#social a:hover{
     color: var(--destaque);
   }
+
+  section#detalhes{
+    grid-column: 2;
+    margin-top: 20px;
+    padding: 20px;
+    background-color: var(--fundo-card);
+    border-radius: 8px;
+  }
+  article{
+    background-color: var(--fundo-card);
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+  }
+
